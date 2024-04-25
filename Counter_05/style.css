@@ -1,0 +1,29 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+}
+#counterContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    padding-top: 100px;
+}
+#currentCount{
+    font-size: 6rem;
+}
+.buttons{
+    height: 70px;
+    width: 110px;
+    color: white;
+    border: 3px solid hsl(0, 0%, 75%);;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 40%);
+    font-weight: bold;
+    margin: 10px;
+}
+.buttons:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+.buttons:active{
+    background-color: hsl(0, 0%, 60%);
+}
